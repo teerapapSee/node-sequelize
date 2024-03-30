@@ -1,0 +1,201 @@
+{
+    "100":{
+        "message" : "Continue"
+    },
+    "101": {
+        "message" : "witching Protocols"
+    },
+    "102": {
+        "message" : "Processing"
+    },
+    "103": {
+        "message" : "arly Hints"
+    },
+    "200": {
+        "message" : "OK"
+    },
+    "201": {
+        "message" : "Created"
+    },
+    "202": {
+        "message" : "Accepted"
+    },
+    "203": {
+        "message" : "Non-Authoritative Information",
+        "sub" : {
+            "203-1" : {
+                "message" : "Generate New Token From Refresh Token"
+            },
+            "203-2" : {
+                "message" : "Refresh token exp"
+            }
+        }
+    },
+    "204": {
+        "message" : "No Content"
+    },
+    "205": {
+        "message" : "Reset Content"
+    },
+    "206": {
+        "message" : "Partial Content"
+    },
+    "207": {
+        "message" : "Multi-Status"
+    },
+    "208": {
+        "message" : "Already Reported"
+    },
+    "226": {
+        "message" : "IM Used"
+    },
+    "300": {
+        "message" : "Multiple Choices"
+    },
+    "301": {
+        "message" : "Moved Permanently"
+    },
+    "302": {
+        "message" : "Found"
+    },
+    "303": {
+        "message" : "See Other"
+    },
+    "304": {
+        "message" : "Not Modified"
+    },
+    "305": {
+        "message" : "Use Proxy"
+    },
+    "306": {
+        "message" : "unused"
+    },
+    "307": {
+        "message" : "Temporary Redirect"
+    },
+    "308": {
+        "message" : "Permanent Redirect"
+    },
+    "400": {
+        "message" : "Bad Request"
+    },
+    "401": {
+        "message" : "Unauthorized"
+    },
+    "402": {
+        "message" : "Payment Required"
+    },
+    "403": {
+        "message" : "Forbidden"
+    },
+    "404": {
+        "message" : "Not Found"
+    },
+    "405": {
+        "message" : "Method Not Allowed"
+    },
+    "406": {
+        "message" : "Not Acceptable"
+    },
+    "407": {
+        "message" : "Proxy Authentication Required"
+    },
+    "408": {
+        "message" : "Request Timeout"
+    },
+    "409": {
+        "message" : "Conflict"
+    },
+    "410": {
+        "message" : "Gone"
+    },
+    "411": {
+        "message" : "Length Required"
+    },
+    "412": {
+        "message" : "Precondition Failed"
+    },
+    "413": {
+        "message" : "Payload Too Large"
+    },
+    "414": {
+        "message" : "URI Too Long"
+    },
+    "415": {
+        "message" : "Unsupported Media Type"
+    },
+    "416": {
+        "message" : "Range Not Satisfiable"
+    },
+    "417": {
+        "message" : "Expectation Failed"
+    },
+    "418": {
+        "message" : "I'm a teapot"
+    },
+    "421": {
+        "message" : "Misdirected Request"
+    },
+    "422": {
+        "message" : "Unprocessable Content"
+    },
+    "423": {
+        "message" : "Locked"
+    },
+    "424": {
+        "message" : "Failed Dependency"
+    },
+    "425": {
+        "message" : "Too Early"
+    },
+    "426": {
+        "message" : "Upgrade Required"
+    },
+    "428": {
+        "message" : "Precondition Required"
+    },
+    "429": {
+        "message" : "Too Many Requests"
+    },
+    "431": {
+        "message" : "Request Header Fields Too Large"
+    },
+    "451": {
+        "message" : "Unavailable For Legal Reasons"
+    },
+    "500": {
+        "message" : "Internal Server Error"
+    },
+    "501": {
+        "message" : "Not Implemented"
+    },
+    "502": {
+        "message" : "Bad Gateway"
+    },
+    "503": {
+        "message" : "Service Unavailable"
+    },
+    "504": {
+        "message" : "Gateway Timeout"
+    },
+    "505": {
+        "message" : "HTTP Version Not Supported"
+    },
+    "506": {
+        "message" : "Variant Also Negotiates"
+    },
+    "507": {
+        "message" : "Insufficient Storage"
+    },
+    "508": {
+        "message" : "Loop Detected"
+    },
+    "510": {
+        "message" : "Not Extended"
+    },
+    "511": {
+        "message" : "Network Authentication Required"
+    },
+    "note_1":"การตอบกลับอย่างให้ข้อมูล ( 100– 199) การตอบกลับที่ประสบความสำเร็จ ( 200– 299) ข้อความเปลี่ยนเส้นทาง ( 300– 399) การตอบสนองข้อผิดพลาดของลูกค้า ( 400– 499) การตอบสนองข้อผิดพลาดของเซิร์ฟเวอร์ ( 500– 599)",
+    "note_2":"https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#information_responses"
+}
