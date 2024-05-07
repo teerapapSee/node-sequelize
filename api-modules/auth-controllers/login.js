@@ -46,7 +46,8 @@ class Controller extends Main{
                     response_desc: status["200"].message,
                     playload:{
                         token:accessToken,
-                        exp:accessTokenExp
+                        exp:accessTokenExp,
+                        system_exp:refreshTokenExp
                     }
                 })
             }else{

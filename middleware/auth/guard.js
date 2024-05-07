@@ -18,6 +18,7 @@ const guard = async (req,res,next) => {
             let checkToken = null
             try{
                 checkToken = jwt.verify(authorization.substring(authorization.indexOf('Bearer ')+7),process.env.JWT_SECRET)
+                console.log("guard  checkToken:", checkToken)
             } catch(error){
                 if(error.message=="jwt expired"){
                     const generateAccessToken = new GenerateAccessToken(req,res,next)
@@ -33,16 +34,16 @@ const guard = async (req,res,next) => {
                     }
                     return
                 }else{
-                    throw new Error(error.message)
+                    next(new Error(error.message))
                 }
             }
             if(checkToken){
                 next()
             }else{
-                throw new Error('Token invalid')
+                next(new Error('Token invalid'))
             }
         }else{
-            throw new Error('Token invalid')
+            next(new Error('Token invalid'))
         }
     }else{
         next()
